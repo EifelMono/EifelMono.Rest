@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 15.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EifelMono.Rest", "EifelMono.Rest.csproj", "{4FCD814B-0B79-471A-AFB1-C2A820F2D1AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGetLib", "NuGetLib", "{1C312EE7-C6C7-4269-A391-BE2AEC4DDFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EifelMono.KaOS", "..\EifelMono.KaOS\EifelMono.KaOS\EifelMono.KaOS.csproj", "{8600305D-6210-42F1-A7FD-4031D1B09D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FCD814B-0B79-471A-AFB1-C2A820F2D1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCD814B-0B79-471A-AFB1-C2A820F2D1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCD814B-0B79-471A-AFB1-C2A820F2D1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCD814B-0B79-471A-AFB1-C2A820F2D1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8600305D-6210-42F1-A7FD-4031D1B09D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8600305D-6210-42F1-A7FD-4031D1B09D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8600305D-6210-42F1-A7FD-4031D1B09D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8600305D-6210-42F1-A7FD-4031D1B09D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8600305D-6210-42F1-A7FD-4031D1B09D37} = {1C312EE7-C6C7-4269-A391-BE2AEC4DDFA1}
+	EndGlobalSection
+EndGlobal

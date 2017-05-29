@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netstandard1.6\EifelMono.Rest.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="System.Net.Http" Version="4.3.2" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.1.248" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EifelMono.KaOS\EifelMono.KaOS\EifelMono.KaOS.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="README.md" />
+  </ItemGroup>
+</Project>
